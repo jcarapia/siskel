@@ -6,6 +6,8 @@ var Movie = Backbone.Model.extend({
 
   toggleLike: function() {
     // your code here
+ this.set({like: false});
+console.log(this)
   }
 
 });
